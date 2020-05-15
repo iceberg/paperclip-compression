@@ -76,7 +76,7 @@ module PaperclipCompression
 
     def catalina?
       major = OS.host_os.match(/darwin(\d+)\./)[1].to_i
-      major >= 19
+      major >= 18
     end
   end
 
